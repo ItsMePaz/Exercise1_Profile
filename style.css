@@ -83,7 +83,7 @@ section {
 }
 
 .name {
-  color: green;
+  color: rgb(15, 212, 15);
 }
 
 .welcome {
@@ -106,7 +106,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 20px;
-  height: 400px;
+  height: 700px;
   align-items: center;
   margin: 20px;
 }
@@ -147,7 +147,7 @@ section {
   top: 2px;
 }
 
-/* Phone */
+/* MOBILE Responsiveness */
 
 @media screen and (max-width: 415px) {
   header {
@@ -244,10 +244,18 @@ section {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    height: 400px;
+    height: 500px;
     align-items: center;
     margin: 20px;
     padding: 5%;
+  }
+
+  .about-message {
+    text-align: center;
+  }
+
+  .educational-attainment {
+    font-size: 10px;
   }
 
   .formal-image {
