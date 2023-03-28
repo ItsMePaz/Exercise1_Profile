@@ -110,6 +110,7 @@ section {
   align-items: center;
   margin: 20px;
 }
+
 .skills {
   background-color: rgba(37, 36, 36, 0.907);
   padding-left: 20%;
@@ -247,5 +248,25 @@ section {
     align-items: center;
     margin: 20px;
     padding: 5%;
+  }
+
+  .formal-image {
+    border-radius: 20px;
+    width: 54%;
+    height: auto;
+  }
+}
+
+/* TABLET Responsiveness */
+@media screen and (min-width: 401px) and (max-width: 960px) {
+  .formal-image {
+    display: none;
+  }
+}
+
+/* PC Responsiveness */
+@media screen and (min-width: 961px) {
+  .formal-image {
+    display: none;
   }
 }
