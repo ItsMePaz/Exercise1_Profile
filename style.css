@@ -113,18 +113,22 @@ section {
 
 .skills {
   background-color: rgba(37, 36, 36, 0.907);
-  padding-left: 20%;
-  padding-right: 20%;
+  padding: 13% 20% 20% 20%;
 
   display: grid;
   flex-direction: column;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
+  gap: 70px;
   text-align: center;
-  height: 600px;
+  height: 400px;
   align-items: center;
   margin: 20px;
+  justify-content: center;
+}
+
+.img-logo {
+  margin-bottom: 15px;
 }
 
 .skill-three {
@@ -142,6 +146,23 @@ section {
   align-items: center;
 }
 
+.form {
+  padding: 5% 5% 5% 5%;
+  margin: 20px;
+  background-color: rgba(37, 36, 36, 0.907);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+}
+
+.form h2 {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
 .subtitle {
   position: relative;
   top: 2px;
@@ -149,7 +170,7 @@ section {
 
 /* MOBILE Responsiveness */
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 414px) {
   header {
     padding: 25px;
     margin-top: 15%;
@@ -236,6 +257,7 @@ section {
     padding: 8px;
     margin-left: 20px;
     margin-right: 20px;
+    font-weight: bold;
   }
 
   .about {
@@ -244,18 +266,24 @@ section {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    height: 500px;
+    height: 650px;
     align-items: center;
     margin: 20px;
     padding: 5%;
+    line-height: 20px;
   }
 
   .about-message {
     text-align: center;
   }
 
+  .about-education {
+    font-weight: bold;
+    color: rgb(15, 212, 15);
+  }
+
   .educational-attainment {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .formal-image {
@@ -263,10 +291,124 @@ section {
     width: 54%;
     height: auto;
   }
+
+  .skills > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-logo {
+    width: 80px;
+    height: auto;
+  }
+
+  .projects {
+    margin: 20px;
+    padding: 40px 0 0 0;
+    background-color: rgba(37, 36, 36, 0.907);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .projects > div {
+    height: 500px;
+    width: 80%;
+    align-items: center;
+    background-color: rgb(62, 62, 62);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+
+  .projects-img {
+    width: 10px;
+    height: auto;
+  }
+
+  .project-screenshot {
+    width: 80%;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .html-tag {
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 170, 15);
+    font-weight: bold;
+    border: 1px solid white;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .css-tag {
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    font-weight: bold;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  .javascript-tag {
+    color: rgb(0, 0, 0);
+    background-color: rgb(220, 241, 65);
+    font-weight: bold;
+    border: 1px solid white;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  .project-description {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 18px;
+  }
+
+  .link-logo,
+  .github-link-logo {
+    width: 40px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .abstract,
+  .email,
+  .full-name {
+    width: 300px;
+  }
+
+  .abstract {
+    height: 100px;
+  }
+
+  .send-button {
+    color: black;
+    height: 35px;
+    width: auto;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(194, 210, 194);
+  }
+
+  .send-button:hover {
+    color: rgb(255, 255, 255);
+    height: 36px;
+    width: auto;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 24px;
+    background-color: rgb(0, 247, 0);
+  }
 }
 
 /* TABLET Responsiveness */
-@media screen and (min-width: 401px) and (max-width: 960px) {
+@media screen and (min-width: 415px) and (max-width: 960px) {
   .formal-image {
     display: none;
   }
