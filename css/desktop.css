@@ -1,0 +1,6 @@
+/* PC Responsiveness */
+@media screen and (min-width: 961px) {
+  .formal-image {
+    display: none;
+  }
+}
