@@ -196,6 +196,27 @@ section {
     gap: 10%;
   }
 
+  .about-menu,
+  .skills-nav,
+  .projects-nav,
+  .contacts-nav {
+    text-decoration: none;
+  }
+
+  .about-menu:hover,
+  .skills-nav:hover,
+  .projects-nav:hover,
+  .contacts-nav:hover {
+    color: greenyellow;
+  }
+
+  .about-menu:visited,
+  .skills-nav:visited,
+  .projects-nav:visited,
+  .contacts-nav:visited {
+    color: white;
+  }
+
   .resume {
     flex: 2;
     display: flex;
@@ -217,7 +238,7 @@ section {
   .logo {
     flex: 1;
     display: grid;
-    top: 1px;
+    top: 5px;
     justify-content: center;
     font-size: 35px;
     z-index: 1;
@@ -314,10 +335,10 @@ section {
   }
 
   .projects > div {
-    height: 500px;
+    height: 480px;
     width: 80%;
     align-items: center;
-    background-color: rgb(62, 62, 62);
+    background-color: rgba(101, 101, 101, 0.822);
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 10px;
@@ -361,10 +382,27 @@ section {
     border-radius: 5px;
   }
 
+  .go-back-to-nav-skills {
+    direction: flex;
+    position: relative;
+    bottom: 0;
+  }
+
+  .go-back-to-nav-project {
+    margin-top: 20px;
+  }
+
   .project-description {
     margin-top: 10%;
     margin-bottom: 10%;
     font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .link-logos {
+    margin-bottom: 10px;
   }
 
   .link-logo,
@@ -380,6 +418,10 @@ section {
   .email,
   .full-name {
     width: 300px;
+    color: black;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
   }
 
   .abstract {
@@ -404,6 +446,28 @@ section {
     padding: 3px;
     font-size: 24px;
     background-color: rgb(0, 247, 0);
+  }
+
+  .menu:hover {
+    color: greenyellow;
+  }
+
+  .contacts-list {
+    margin-top: 18px;
+    margin-bottom: 40px;
+  }
+
+  .other-contact-logos {
+    margin-top: 20px;
+  }
+
+  .other-contact-link-logo {
+    width: 35px;
+    margin: 10px;
+  }
+  .other-contact-link-logo:hover {
+    width: 40px;
+    margin: 10px;
   }
 }
 
