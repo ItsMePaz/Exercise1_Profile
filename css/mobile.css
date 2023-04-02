@@ -1,4 +1,18 @@
 @media screen and (min-width: 280px) and (max-width: 415px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  body {
+    background-color: #000000;
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
   header {
     padding: 25px;
     margin-top: 15%;
@@ -48,26 +62,38 @@
   .resume {
     flex: 2;
     display: flex;
-    margin-right: -2%;
-    top: 2.5%;
-    justify-content: center;
-
+    top: 15px;
+    justify-content: flex-end;
+    right: 30px;
     position: absolute;
-
-    font-size: 15px;
+    position: fixed;
+    font-size: 16px;
     z-index: 1;
     font-family: "Exo 2", sans-serif;
-
+    padding-left: 8px;
+    padding-right: 8px;
     border-radius: 10px;
     background-color: green;
     border: 2px solid black;
   }
 
+  .resume:hover {
+    cursor: pointer;
+    color: green;
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .download {
+    text-decoration-line: none;
+  }
+
   .logo {
     flex: 1;
-    display: grid;
+    display: flex;
     top: 5px;
     justify-content: center;
+    position: absolute;
     font-size: 35px;
     z-index: 1;
     font-family: "Exo 2", sans-serif;
@@ -76,18 +102,18 @@
   section {
     display: grid;
     justify-content: flex-start;
-    margin-top: -60%;
+    margin-top: -50%;
     margin-right: 10%;
     padding-left: 10%;
-    height: 750px;
+    height: 100vh;
     width: auto;
+    gap: 30px;
+    align-items: center;
   }
 
   .titles {
-    border: 1px solid rgb(0, 0, 0);
     font-size: 26px;
-    position: absolute;
-    margin-top: 100%;
+    padding-top: 30%;
   }
 
   .welcome {
@@ -300,58 +326,5 @@
   .other-contact-link-logo:hover {
     width: 40px;
     margin: 10px;
-  }
-}
-
-@media screen and (min-width: 270px) and (max-width: 280px) {
-  header {
-    padding: 25px;
-    margin-top: 15%;
-    border: 1px solid rgb(0, 0, 0);
-  }
-
-  section {
-    display: grid;
-    justify-content: flex-start;
-    margin-top: -90%;
-    margin-right: 10%;
-    padding-left: 10%;
-    height: 750px;
-    width: auto;
-  }
-
-  .titles {
-    border: 1px solid rgb(0, 0, 0);
-    font-size: 26px;
-    position: absolute;
-    margin-top: 150%;
-  }
-
-  .skills {
-    gap: 40px;
-  }
-
-  .html-tag,
-  .css-tag,
-  .javascript-tag {
-    font-size: 12px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-
-  .tech-tags {
-    margin-left: -10%;
-    margin-right: -10%;
-  }
-
-  .abstract,
-  .email,
-  .full-name {
-    width: 120%;
-    color: black;
-    font-size: 15px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-    margin-left: -10%;
   }
 }
