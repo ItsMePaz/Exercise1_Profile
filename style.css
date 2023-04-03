@@ -1,0 +1,1370 @@
+/* MOBILE RESPONSIVENESS */
+@media screen and (min-width: 280px) and (max-width: 415px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  body {
+    background-color: #000000;
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  header {
+    padding: 25px;
+    margin-top: 15%;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  nav {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    flex: 6;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    gap: 10%;
+  }
+
+  .about-menu,
+  .skills-nav,
+  .projects-nav,
+  .contacts-nav {
+    text-decoration: none;
+  }
+
+  .about-menu:hover,
+  .skills-nav:hover,
+  .projects-nav:hover,
+  .contacts-nav:hover {
+    color: greenyellow;
+  }
+
+  .about-menu:visited,
+  .skills-nav:visited,
+  .projects-nav:visited,
+  .contacts-nav:visited {
+    color: white;
+  }
+
+  .resume {
+    flex: 2;
+    display: flex;
+    top: 15px;
+    justify-content: flex-end;
+    right: 30px;
+    position: absolute;
+    position: fixed;
+    font-size: 16px;
+    z-index: 1;
+    font-family: "Exo 2", sans-serif;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    background-color: green;
+    border: 2px solid black;
+  }
+
+  .resume:hover {
+    cursor: pointer;
+    color: green;
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .download {
+    text-decoration-line: none;
+  }
+
+  .logo {
+    flex: 1;
+    display: flex;
+    top: 5px;
+    justify-content: center;
+    position: absolute;
+    font-size: 35px;
+    z-index: 1;
+    font-family: "Exo 2", sans-serif;
+  }
+
+  section {
+    display: grid;
+    justify-content: flex-start;
+    margin-top: -50%;
+    margin-right: 10%;
+    padding-left: 10%;
+    height: 100vh;
+    width: auto;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .titles {
+    font-size: 26px;
+    padding-top: 25%;
+  }
+
+  .name {
+    color: rgb(15, 212, 15);
+  }
+
+  .welcome {
+    margin-right: -5%;
+    width: auto;
+    min-height: 100vh;
+    font-size: 35px;
+    margin-top: 80%;
+  }
+
+  .about-title,
+  .skills-title,
+  .projects-title {
+    border: 5px solid rgba(52, 50, 50, 0.907);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+
+  .about {
+    background-color: rgba(37, 36, 36, 0.907);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 650px;
+    align-items: center;
+    margin: 20px;
+    padding: 5%;
+    line-height: 20px;
+  }
+
+  .about-message {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .about-education {
+    font-weight: bold;
+    color: rgb(15, 212, 15);
+  }
+
+  .educational-attainment {
+    font-size: 15px;
+  }
+
+  .formal-image {
+    border-radius: 20px;
+    width: 54%;
+    height: auto;
+  }
+
+  .form {
+    padding: 5% 5% 5% 5%;
+    margin: 20px;
+    background-color: rgba(37, 36, 36, 0.907);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+  }
+
+  .form h2 {
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+
+  .skills {
+    background-color: rgba(37, 36, 36, 0.907);
+    padding: 6% 20% 5% 20%;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px;
+    text-align: center;
+    min-height: 350px;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+  }
+
+  .skills > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-logo {
+    width: 80px;
+    height: auto;
+  }
+
+  .projects {
+    margin: 20px;
+    padding: 40px 0 0 0;
+    background-color: rgba(37, 36, 36, 0.907);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .projects > div {
+    height: 500px;
+    width: 80%;
+    align-items: center;
+    background-color: rgba(101, 101, 101, 0.822);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+
+  .projects-img {
+    width: 10px;
+    height: auto;
+  }
+
+  .project-screenshot {
+    width: 80%;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .html-tag {
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 170, 15);
+    font-weight: bold;
+    border: 1px solid white;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+
+  .css-tag {
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    font-weight: bold;
+    border: 1px solid white;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+
+  .javascript-tag {
+    color: rgb(0, 0, 0);
+    background-color: rgb(220, 241, 65);
+    font-weight: bold;
+    border: 1px solid white;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+
+  .go-back-to-nav-skills {
+    direction: flex;
+    position: relative;
+    bottom: 0;
+  }
+
+  .go-back-to-nav-project {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+  .project-description {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .link-logos {
+    margin-bottom: 10px;
+  }
+
+  .link-logo,
+  .github-link-logo {
+    width: 40px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .abstract,
+  .email,
+  .full-name {
+    width: 150%;
+    color: black;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-left: -25%;
+    margin-right: 25%;
+  }
+
+  .abstract {
+    height: 100px;
+  }
+
+  .send-button {
+    color: black;
+    height: 35px;
+    width: auto;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(194, 210, 194);
+  }
+
+  .send-button:hover {
+    color: rgb(255, 255, 255);
+    height: 36px;
+    width: auto;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 24px;
+    background-color: rgb(0, 247, 0);
+  }
+
+  .menu:hover {
+    color: greenyellow;
+  }
+
+  .contacts-list {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .other-contact-logos {
+    margin-top: 20px;
+  }
+
+  .other-contact-link-logo {
+    width: 33px;
+    margin: 10px;
+  }
+  .other-contact-link-logo:hover {
+    width: 40px;
+    margin: 10px;
+  }
+}
+
+/* TABLET RESPONSIVENESS */
+@media screen and (min-width: 415px) and (max-width: 1400px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  header {
+    padding: 25px;
+    margin-top: 15%;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  body {
+    background-image: none;
+    background-color: black;
+  }
+
+  nav {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu {
+    line-height: 70px;
+    display: flex;
+    bottom: 10%;
+    flex: 6;
+    justify-content: center;
+    margin-top: -10%;
+    margin-bottom: 2%;
+    gap: 10%;
+    margin-bottom: 30px;
+  }
+
+  .menu > div {
+    font-size: 23px;
+  }
+
+  .about-menu,
+  .skills-nav,
+  .projects-nav,
+  .contacts-nav {
+    text-decoration: none;
+  }
+
+  .menu > a:hover {
+    color: greenyellow;
+  }
+
+  .about-menu:visited,
+  .skills-nav:visited,
+  .projects-nav:visited,
+  .contacts-nav:visited {
+    color: white;
+  }
+
+  .resume:hover {
+    cursor: pointer;
+    color: green;
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  /*  .resume {
+      flex: 2;
+      display: flex;
+      margin-right: 2%;
+      top: 15px;
+      justify-content: center;
+  
+      position: absolute;
+  
+      font-size: 15px;
+      z-index: 1;
+      font-family: "Exo 2", sans-serif;
+  
+      border-radius: 10px;
+      background-color: green;
+      border: 2px solid black;
+    } */
+
+  .resume {
+    flex: 1;
+    display: flex;
+    top: 16px;
+    justify-content: flex-end;
+    right: 30px;
+    position: absolute;
+    position: fixed;
+    font-size: 30px;
+    z-index: 1;
+    font-family: "Exo 2", sans-serif;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    background-color: green;
+    border: 2px solid black;
+  }
+
+  .logo {
+    flex: 1;
+    display: flex;
+    top: 1px;
+    justify-content: center;
+    position: absolute;
+    font-size: 50px;
+    z-index: 1;
+    font-family: "Exo 2", sans-serif;
+  }
+
+  .download {
+    text-decoration-line: none;
+  }
+
+  section {
+    display: grid;
+    justify-content: flex-start;
+    margin-top: -220px;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-top: 200px;
+    height: 110vh;
+    align-items: center;
+    width: auto;
+    gap: 30px;
+  }
+
+  .titles {
+    font-size: 26px;
+    padding-top: 8%;
+  }
+
+  .name {
+    color: rgb(15, 212, 15);
+  }
+
+  .welcome {
+    width: auto;
+    min-height: 425px;
+    font-size: 45px;
+    padding-top: 24px;
+    text-align: center;
+  }
+
+  .about-title,
+  .skills-title,
+  .projects-title {
+    border: 5px solid rgba(52, 50, 50, 0.907);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+
+  .about {
+    background-color: rgba(37, 36, 36, 0.907);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 880px;
+    align-items: center;
+    margin: 20px;
+    padding: 5%;
+    line-height: 20px;
+  }
+
+  .about > div {
+    font-size: 25px;
+    line-height: 26px;
+  }
+
+  .about-message {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .about-education {
+    font-weight: bold;
+    color: rgb(15, 212, 15);
+  }
+
+  .educational-attainment {
+    font-size: 15px;
+  }
+
+  .formal-image {
+    border-radius: 20px;
+    width: 54%;
+    min-height: 300px;
+    width: auto;
+    margin-bottom: 25px;
+  }
+
+  .skills {
+    background-color: rgba(37, 36, 36, 0.907);
+    padding: 6% 20% 5% 20%;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 70px;
+    text-align: center;
+    min-height: 350px;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+  }
+
+  .skills > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  .img-logo {
+    width: 80px;
+    height: auto;
+  }
+
+  .projects {
+    margin: 20px;
+    padding: 40px 0 0 0;
+    background-color: rgba(37, 36, 36, 0.907);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .projects > div {
+    min-height: 550px;
+    width: 80%;
+    align-items: center;
+    background-color: rgba(101, 101, 101, 0.822);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+
+  .projects-img {
+    width: 10px;
+    height: auto;
+  }
+
+  .project-screenshot {
+    max-width: 250px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .html-tag {
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 170, 15);
+    font-weight: bold;
+    border: 1px solid white;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .css-tag {
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    font-weight: bold;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  .javascript-tag {
+    color: rgb(0, 0, 0);
+    background-color: rgb(220, 241, 65);
+    font-weight: bold;
+    border: 1px solid white;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  .go-back-to-nav-skills {
+    direction: flex;
+    position: relative;
+    bottom: 0;
+  }
+
+  .go-back-to-nav-project {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .project-description {
+    margin-top: 30px;
+    margin-bottom: 3%;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .link-logos {
+    margin-bottom: 10px;
+  }
+
+  .form {
+    padding: 5% 5% 5% 5%;
+    margin: 20px;
+    background-color: rgba(37, 36, 36, 0.907);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+  }
+
+  .form h2 {
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+
+  .link-logo,
+  .github-link-logo {
+    width: 40px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .abstract,
+  .email,
+  .full-name {
+    width: 300px;
+    color: black;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .abstract {
+    height: 100px;
+  }
+
+  .send-button {
+    color: black;
+    height: 35px;
+    width: auto;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(194, 210, 194);
+  }
+
+  .send-button:hover {
+    color: rgb(255, 255, 255);
+    height: 36px;
+    width: auto;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 24px;
+    background-color: rgb(0, 247, 0);
+  }
+
+  .menu:hover {
+    color: greenyellow;
+  }
+
+  .contacts-list {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .other-contact-logos {
+    margin-top: 20px;
+  }
+
+  .other-contact-link-logo {
+    width: 35px;
+    margin: 10px;
+  }
+  .other-contact-link-logo:hover {
+    width: 40px;
+    margin: 10px;
+  }
+}
+
+/* DESKTOP RESPONSIVENESS */
+@media screen and (min-width: 1401px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  body {
+    background-color: #000000;
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .formal-image {
+    display: none;
+  }
+
+  /*  section {
+      height: 100vh;
+    } */
+
+  section {
+    display: grid;
+    justify-content: flex-start;
+    padding-left: 10%;
+    padding-top: 200px;
+    height: 100vh;
+    width: auto;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .name {
+    color: rgb(15, 212, 15);
+  }
+
+  .name {
+    color: rgb(15, 212, 15);
+  }
+
+  .titles {
+    font-size: 30px;
+  }
+
+  .welcome {
+    width: 500px;
+    height: 375px;
+    font-size: 60px;
+    margin-top: -50%;
+  }
+  .titles {
+    margin-top: 20%;
+  }
+
+  .download {
+    text-decoration-line: none;
+  }
+
+  .menu {
+    display: flex;
+    position: relative;
+    flex: 6;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 1%;
+    gap: 100px;
+    line-height: 90px;
+  }
+
+  .about-menu,
+  .skills-nav,
+  .projects-nav,
+  .contacts-nav {
+    text-decoration: none;
+  }
+
+  .about-menu:hover,
+  .skills-nav:hover,
+  .projects-nav:hover,
+  .contacts-nav:hover {
+    color: greenyellow;
+  }
+
+  .about-menu:visited,
+  .skills-nav:visited,
+  .projects-nav:visited,
+  .contacts-nav:visited {
+    color: white;
+  }
+
+  .resume:hover {
+    cursor: pointer;
+    color: green;
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .resume {
+    flex: 1;
+    display: flex;
+    top: 3%;
+    justify-content: flex-end;
+    right: 30px;
+    position: absolute;
+    position: fixed;
+    font-size: 30px;
+    z-index: 1;
+    font-family: "Exo 2", sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: green;
+    border: 2px solid black;
+    margin-right: 1%;
+  }
+
+  .about-back {
+    font-size: 25px;
+  }
+
+  .logo {
+    flex: 1;
+    display: flex;
+    top: 1px;
+    justify-content: center;
+    position: absolute;
+    font-size: 80px;
+    z-index: 1;
+    margin-left: 2%;
+    font-family: "Exo 2", sans-serif;
+  }
+
+  .about-title,
+  .skills-title,
+  .projects-title {
+    border: 5px solid rgba(52, 50, 50, 0.907);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .about {
+    background-color: rgba(37, 36, 36, 0.907);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 750px;
+    align-items: center;
+    margin: 20px;
+    padding: 5%;
+    line-height: 20px;
+  }
+
+  .about > div {
+    font-size: 35px;
+    line-height: 26px;
+  }
+
+  .about-message {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 8%;
+  }
+
+  .about-education {
+    font-weight: bold;
+    color: rgb(15, 212, 15);
+    margin-bottom: 3%;
+  }
+
+  .educational-attainment {
+    font-size: 15px;
+    line-height: 100px;
+  }
+
+  .formal-image {
+    border-radius: 20px;
+    width: 54%;
+    min-height: 300px;
+    width: auto;
+    margin-bottom: 25px;
+  }
+
+  .skills {
+    background-color: rgba(37, 36, 36, 0.907);
+    padding: 4% 20% 8% 20%;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 70px;
+    text-align: center;
+    min-height: 450px;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+  }
+
+  .skills > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  .img-logo {
+    width: 80px;
+    height: auto;
+  }
+
+  .projects {
+    margin: 20px;
+    padding-bottom: -100px;
+    background-color: rgba(37, 36, 36, 0.907);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    height: 160vh;
+  }
+
+  .projects > div {
+    min-height: 575px;
+    width: 80%;
+    align-items: center;
+    background-color: rgba(101, 101, 101, 0.822);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  .projects > div > h3 {
+    font-size: 30px;
+  }
+
+  .projects-img {
+    width: 10px;
+    height: auto;
+  }
+
+  .project-screenshot {
+    width: 80%;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .html-tag {
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 170, 15);
+    font-weight: bold;
+    border: 1px solid white;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .css-tag {
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    font-weight: bold;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  .javascript-tag {
+    color: rgb(0, 0, 0);
+    background-color: rgb(220, 241, 65);
+    font-weight: bold;
+    border: 1px solid white;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  .go-back-to-nav-skills {
+    direction: flex;
+    position: relative;
+    bottom: 0;
+  }
+
+  .go-back-to-nav-project {
+    display: none;
+  }
+
+  .project-description {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .link-logos {
+    margin-bottom: 10px;
+  }
+
+  .link-logo,
+  .github-link-logo {
+    width: 40px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .abstract {
+    width: 500px;
+    color: black;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 40px;
+  }
+
+  #contacts {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+
+  .form {
+    padding: 5% 5% 5% 5%;
+    margin: 20px;
+    background-color: rgba(37, 36, 36, 0.907);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+  }
+
+  .form h2 {
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+
+  .form > p {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+
+  .email,
+  .full-name {
+    height: 30px;
+    width: 500px;
+    color: black;
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 25px;
+  }
+
+  .abstract {
+    height: 100px;
+  }
+
+  .send-button {
+    color: black;
+    height: 35px;
+    width: auto;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(194, 210, 194);
+  }
+
+  .send-button:hover {
+    color: rgb(255, 255, 255);
+    height: 36px;
+    width: auto;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 24px;
+    background-color: rgb(0, 247, 0);
+  }
+
+  .menu:hover {
+    color: greenyellow;
+  }
+
+  .contacts-list {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .other-contact-logos {
+    margin-top: 20px;
+  }
+
+  .keychainify-checked {
+    font-size: 30px;
+  }
+
+  .other-contact-link-logo {
+    width: 75px;
+    margin: 25px;
+  }
+  .other-contact-link-logo:hover {
+    width: 80px;
+    margin: 25px;
+  }
+}
+
+@media screen and (min-width: 2559px) {
+  section {
+    display: grid;
+    justify-content: flex-start;
+    padding-left: 10%;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    height: 100vh;
+    width: auto;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .welcome {
+    width: 1000px;
+    height: 375px;
+    font-size: 150px;
+    margin-top: -50%;
+  }
+
+  .titles {
+    font-size: 70px;
+  }
+
+  .about {
+    background-color: rgba(37, 36, 36, 0.907);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    min-height: 850px;
+    align-items: center;
+    margin: 20px;
+    padding: 5%;
+    line-height: 20px;
+  }
+
+  .about > div {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  .about-message {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 1%;
+  }
+
+  .img-logo {
+    width: 200px;
+    height: auto;
+  }
+
+  .skills > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    padding-top: 40px;
+  }
+
+  .projects {
+    margin: 20px;
+    padding-bottom: -100px;
+    background-color: rgba(37, 36, 36, 0.907);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    min-height: 125vh;
+  }
+
+  .tech-tags {
+    margin-top: 30px;
+  }
+
+  .html-tag,
+  .css-tag,
+  .javascript-tag {
+    font-size: 40px;
+  }
+
+  .projects > div {
+    border-radius: 40px;
+  }
+
+  .project-description {
+    margin-top: 30px;
+    margin-bottom: 3%;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .link-logos {
+    margin-bottom: 10px;
+  }
+
+  .link-logo,
+  .github-link-logo {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .projects > div > h3 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  #contacts {
+    font-size: 100px;
+    margin-bottom: 80px;
+  }
+
+  .form > p {
+    font-size: 80px;
+    line-height: 100px;
+    margin-bottom: 70px;
+  }
+
+  .email,
+  .full-name {
+    height: 80px;
+    color: black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 40px;
+    width: 1100px;
+    margin-bottom: 30px;
+  }
+
+  .abstract {
+    width: 1100px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+
+  .send-button {
+    color: black;
+    height: 88px;
+    width: auto;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 71px;
+    background-color: rgb(194, 210, 194);
+    margin-bottom: 68px;
+  }
+
+  .other-contact-link-logo {
+    width: 150px;
+    margin: 50px;
+  }
+
+  .keychainify-checked {
+    font-size: 60px;
+  }
+
+  .projects-nav:hover {
+    color: rgb(0, 247, 0);
+  }
+
+  .skills-nav:hover {
+    color: rgb(0, 247, 0);
+  }
+
+  .about-menu:hover {
+    color: rgb(0, 247, 0);
+  }
+
+  .contacts-nav:hover {
+    color: rgb(0, 247, 0);
+  }
+
+  .about-title,
+  .skills-title,
+  .projects-title {
+    border: 10px solid rgba(52, 50, 50, 0.907);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 70px;
+  }
+}
