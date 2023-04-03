@@ -225,7 +225,7 @@
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     align-items: center;
-    min-height: 166vh;
+    height: 160vh;
   }
 
   .projects > div {
