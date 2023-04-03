@@ -228,7 +228,7 @@
   }
 
   .projects > div {
-    height: 500px;
+    min-height: 500px;
     width: 80%;
     align-items: center;
     background-color: rgba(101, 101, 101, 0.822);
@@ -314,13 +314,12 @@
   .abstract,
   .email,
   .full-name {
-    width: 150%;
+    width: 200px;
     color: black;
     font-size: 15px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
-    margin-left: -25%;
-    margin-right: 25%;
+    margin: 0 auto;
   }
 
   .abstract {
