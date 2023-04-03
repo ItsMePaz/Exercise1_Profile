@@ -37,7 +37,18 @@
     color: rgb(15, 212, 15);
   }
 
+  .name {
+    color: rgb(15, 212, 15);
+  }
+
+  .titles {
+    font-size: 30px;
+  }
+
   .welcome {
+    width: 500px;
+    height: 375px;
+    font-size: 60px;
     margin-top: -50%;
   }
   .titles {
@@ -214,7 +225,7 @@
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     align-items: center;
-    height: 150vh;
+    min-height: 166vh;
   }
 
   .projects > div {
@@ -311,6 +322,23 @@
     margin-bottom: 25px;
   }
 
+  .form {
+    padding: 5% 5% 5% 5%;
+    margin: 20px;
+    background-color: rgba(37, 36, 36, 0.907);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+  }
+
+  .form h2 {
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+
   .form > p {
     font-size: 50px;
     line-height: 60px;
@@ -376,5 +404,30 @@
   .other-contact-link-logo:hover {
     width: 80px;
     margin: 25px;
+  }
+}
+
+@media screen and (min-width: 2559px) {
+  section {
+    display: grid;
+    justify-content: flex-start;
+    padding-left: 10%;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    height: 100vh;
+    width: auto;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .welcome {
+    width: 1000px;
+    height: 375px;
+    font-size: 150px;
+    margin-top: -50%;
+  }
+
+  .titles {
+    font-size: 70px;
   }
 }
