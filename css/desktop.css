@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
   * {
     padding: 0;
     margin: 0;
@@ -224,7 +224,7 @@
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     align-items: center;
-    height: 160vh;
+    height: 200vh;
   }
 
   .projects > div {
