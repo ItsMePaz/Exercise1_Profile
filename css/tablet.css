@@ -119,7 +119,7 @@
   section {
     display: grid;
     justify-content: flex-start;
-    margin-top: -60%;
+    margin-top: -220px;
     margin-right: 10%;
     padding-left: 10%;
     padding-top: 200px;
@@ -142,8 +142,7 @@
     width: auto;
     min-height: 425px;
     font-size: 45px;
-    padding-top: 70px;
-    margin-top: 45%;
+    padding-top: 24px;
     text-align: center;
   }
 
@@ -239,7 +238,7 @@
   }
 
   .projects > div {
-    min-height: 575px;
+    min-height: 550px;
     width: 80%;
     align-items: center;
     background-color: rgba(101, 101, 101, 0.822);
@@ -254,7 +253,7 @@
   }
 
   .project-screenshot {
-    width: 80%;
+    max-width: 250px;
     margin: 10px 0px 10px 0px;
   }
 
@@ -298,7 +297,7 @@
   }
 
   .project-description {
-    margin-top: 10%;
+    margin-top: 30px;
     margin-bottom: 3%;
     font-size: 25px;
     align-items: center;

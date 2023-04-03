@@ -238,6 +238,10 @@
     margin: 0 auto;
   }
 
+  .projects > div > h3 {
+    font-size: 30px;
+  }
+
   .projects-img {
     width: 10px;
     height: auto;
@@ -314,7 +318,7 @@
     font-size: 15px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
-    font-size: 25px;
+    font-size: 40px;
   }
 
   #contacts {
@@ -428,6 +432,173 @@
   }
 
   .titles {
+    font-size: 70px;
+  }
+
+  .about {
+    background-color: rgba(37, 36, 36, 0.907);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    min-height: 850px;
+    align-items: center;
+    margin: 20px;
+    padding: 5%;
+    line-height: 20px;
+  }
+
+  .about > div {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  .about-message {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 1%;
+  }
+
+  .img-logo {
+    width: 200px;
+    height: auto;
+  }
+
+  .skills > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    padding-top: 40px;
+  }
+
+  .projects {
+    margin: 20px;
+    padding-bottom: -100px;
+    background-color: rgba(37, 36, 36, 0.907);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    min-height: 125vh;
+  }
+
+  .tech-tags {
+    margin-top: 30px;
+  }
+
+  .html-tag,
+  .css-tag,
+  .javascript-tag {
+    font-size: 40px;
+  }
+
+  .projects > div {
+    border-radius: 40px;
+  }
+
+  .project-description {
+    margin-top: 30px;
+    margin-bottom: 3%;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .link-logos {
+    margin-bottom: 10px;
+  }
+
+  .link-logo,
+  .github-link-logo {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .projects > div > h3 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  #contacts {
+    font-size: 100px;
+    margin-bottom: 80px;
+  }
+
+  .form > p {
+    font-size: 80px;
+    line-height: 100px;
+    margin-bottom: 70px;
+  }
+
+  .email,
+  .full-name {
+    height: 80px;
+    color: black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 40px;
+    width: 1100px;
+    margin-bottom: 30px;
+  }
+
+  .abstract {
+    width: 1100px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+
+  .send-button {
+    color: black;
+    height: 88px;
+    width: auto;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 71px;
+    background-color: rgb(194, 210, 194);
+    margin-bottom: 68px;
+  }
+
+  .other-contact-link-logo {
+    width: 150px;
+    margin: 50px;
+  }
+
+  .keychainify-checked {
+    font-size: 60px;
+  }
+
+  .projects-nav:hover {
+    color: rgb(0, 247, 0);
+  }
+
+  .skills-nav:hover {
+    color: rgb(0, 247, 0);
+  }
+
+  .about-menu:hover {
+    color: rgb(0, 247, 0);
+  }
+
+  .contacts-nav:hover {
+    color: rgb(0, 247, 0);
+  }
+
+  .about-title,
+  .skills-title,
+  .projects-title {
+    border: 10px solid rgba(52, 50, 50, 0.907);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
     font-size: 70px;
   }
 }

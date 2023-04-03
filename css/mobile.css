@@ -113,7 +113,7 @@
 
   .titles {
     font-size: 26px;
-    padding-top: 30%;
+    padding-top: 25%;
   }
 
   .name {
@@ -123,8 +123,9 @@
   .welcome {
     margin-right: -5%;
     width: auto;
-    height: 375px;
-    font-size: 45px;
+    min-height: 100vh;
+    font-size: 35px;
+    margin-top: 80%;
   }
 
   .about-title,
@@ -250,8 +251,9 @@
     background-color: rgb(243, 170, 15);
     font-weight: bold;
     border: 1px solid white;
-    margin-right: 10px;
+    margin-right: 5px;
     border-radius: 5px;
+    font-size: 13px;
   }
 
   .css-tag {
@@ -259,9 +261,10 @@
     background-color: aqua;
     font-weight: bold;
     border: 1px solid white;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     border-radius: 5px;
+    font-size: 13px;
   }
 
   .javascript-tag {
@@ -269,8 +272,9 @@
     background-color: rgb(220, 241, 65);
     font-weight: bold;
     border: 1px solid white;
-    margin-left: 10px;
+    margin-left: 5px;
     border-radius: 5px;
+    font-size: 13px;
   }
 
   .go-back-to-nav-skills {
