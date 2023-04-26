@@ -1,5 +1,5 @@
 /* TABLET Responsiveness */
-@media screen and (min-width: 415px) and (max-width: 1023px) {
+@media screen and (min-width: 416px) and (max-width: 1023px) {
   * {
     padding: 0;
     margin: 0;
@@ -93,7 +93,7 @@
     position: fixed;
     font-size: 30px;
     z-index: 1;
-    font-family: "Exo 2", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 10px;
@@ -255,6 +255,7 @@
   .project-screenshot {
     max-width: 250px;
     margin: 10px 0px 10px 0px;
+    border-radius: 20px;
   }
 
   .html-tag {
